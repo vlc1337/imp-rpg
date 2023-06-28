@@ -79,6 +79,7 @@ def check():
             money += re
             del t[player['x']]
             print(f'\nYou found a treasure and you got {re} gold!')
+            time.sleep(1)
             return
 
 def buyitem():
