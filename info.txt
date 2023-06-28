@@ -1,0 +1,70 @@
+1) Graphics
+
+X - you
+. - your path
+o - the grass
+~ - the sea, you can't step here
+T - the tree, you can't step here
+E - an enemy zone, enter it if you want to fight
+
+2) Controls
+
+Map:
+WASD to move
+H to heal
+L to leave shop/battle
+O to open the shop
+
+Shop:
+↑, ↓(up, down) to scroll the list
+B to buy item
+
+Battle:
+F to attack
+H to heal
+
+3) settings.ini guide
+
+!!Default config is great!!
+
+Format Types:
+1 = format(min,max) you can use the same dmg if u want for example(10,10)
+2 = format(number), example 10
+3 = True if enabled, anyting other if not
+4 = NAME,COST,CRITICAL_CHANCE,MIN_DAMAGE,MAX_DAMAGE|
+
+Map Scale - a map scale(AxA), 2
+Trees Spawn Chance - chance to spawn trees, 2
+Path - leave a path after your steps, 3
+Show Enemies - show enemies on the map, 3
+Show Treasures - show treasures on the map, 3
+
+Hero HP - hero's HP, 2
+Level HP Boost - how much HP will be added to you when you reach a new lvl, 2
+Imp HP - imp hp range, 1
+Imp Attack - imp hp range, 1
+Imp Attack - imp damage, 1
+Imp Level Boost - how much HP will be added to imps when you reach a new lvl, 2
+Enemies Count - enemies(but not bigger than map scale^2), 1
+Victory Gold Reward - how much gold to give after the battle, 1
+Victoty XP Reward - how much XP to give after the battle, 1
+XP For New Level - how much XP do you need to gain a new level, 2
+Weapons - weapons availible in the shop, 4
+Start Balance - gold you'll have at the beginning of the game, 2
+Healing Cost - heal cost when you are free, 2
+Battle Healing Cost - heal cost when you're fighting, 2
+Healing Amount - how much HP will you restore, 1
+Treasures Count - how many treasures to spawn, 2
+Treasure Reward = how many gold you get from the treasure, 1
+
+4) Changelog
+
+23.06.2023 V 0.1 - First verison of the game
+
+28.06.2023 V 0.2:
+- added levels and XP
+- added gold, money and weapons(you can even customize them in settings.ini)
+- added treasures
+- reworked healing
+- reworked battle progress
+- big settings.ini :D
